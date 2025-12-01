@@ -1,48 +1,53 @@
 # PlotGIS - Project Description
 
 ## Short Description (for GitHub repository)
-Interactive real estate app with GIS mapping, custom polygon boundaries, and modern React Native UI. Browse, list, and manage properties with precise geographic coordinates in General Santos City.
+Prototype real estate app with GIS mapping, custom polygon boundaries, and React Native UI. Browse and list properties with geographic coordinates in General Santos City. This is a proof-of-concept demo application.
 
-## Key Selling Points
+## Key Features
 
-### 🎯 Precision Mapping
-- **Custom Polygon Boundaries**: Unlike simple pin markers, PlotGIS displays properties with accurate polygon shapes that reflect real property boundaries
-- **Interactive Map Interface**: Users can explore properties geographically with smooth zoom and pan controls
-- **Location-based Filtering**: Filter properties by barangay with precise geographic targeting
+### Precision Mapping
+- **Custom Polygon Boundaries**: Properties displayed with polygon shapes instead of simple markers
+- **Interactive Map Interface**: Basic zoom and pan controls for exploring properties
+- **Location-based Filtering**: Filter properties by barangay
 
-### 🏗️ Modern Development
-- **React Native + Expo**: Cross-platform mobile app with hot reloading and fast development cycle
-- **TypeScript Support**: Type-safe development for better code quality and developer experience
-- **Modern UI Patterns**: Glassmorphism effects, smooth animations, and Material Design components
+### Modern Development
+- **React Native + Expo**: Cross-platform mobile app with hot reloading
+- **TypeScript Support**: Type-safe development
+- **Modern UI Patterns**: Clean design with smooth animations
 
-### 📱 User-Centric Features
-- **Intuitive Property Creation**: Map-based location setting with polygon drawing tool
-- **Rich Media Support**: Image galleries with swipeable carousels
-- **Smart Search & Filter**: Real-time filtering by title, address, and location
-- **Document Management**: Secure document storage with pay-to-view functionality
+### User Features
+- **Property Creation**: Map-based location setting with polygon drawing
+- **Image Galleries**: Browse property photos
+- **Search & Filter**: Filter by title, address, and location
+- **Document Preview**: Simulated document access
 
-### 🎨 Design Excellence
-- **Clean, Modern Interface**: Professional real estate app aesthetics
-- **Color-coded Categories**: Visual distinction between Commercial and Private properties
-- **Responsive Layout**: Optimized for various screen sizes
-- **Smooth Interactions**: Fluid animations and micro-interactions
+### Design Features
+- **Clean Interface**: Simple, modern design
+- **Category Colors**: Visual distinction between property types
+- **Responsive Layout**: Works on different screen sizes
+- **Smooth Interactions**: Basic animations and transitions
 
 ## Technical Highlights
-- Built with Expo Router for modern navigation
-- Uses react-native-maps for interactive mapping
+- Built with Expo Router for navigation
+- Uses react-native-maps for mapping
 - Implements bottom sheets, modals, and drawer navigation
-- Features custom polygon drawing and editing tools
-- Includes comprehensive state management with React hooks
+- Features custom polygon drawing tools
+- Includes state management with React hooks
 
 ## Target Audience
-- Real estate agents and brokers
-- Property owners and managers
-- Real estate developers
-- Property buyers and investors
-- Anyone needing precise property boundary visualization
+- Students learning React Native development
+- Developers interested in GIS mapping applications
+- Anyone exploring real estate app concepts
+- Demo for showcasing React Native capabilities
 
-## Demo Credentials
-- **Username**: admin
-- **Password**: admin123
+## Demo Information
+This is a prototype application with simulated data. No actual backend or database is connected.
 
-This project showcases modern React Native development practices with a focus on user experience, geographic data visualization, and professional real estate application features.
+## Notes
+This project serves as a proof-of-concept demonstrating:
+- React Native development with Expo
+- GIS mapping integration
+- Modern mobile UI patterns
+- Property management interface concepts
+
+It's designed for learning, demonstration, and as a starting point for more advanced real estate applications.

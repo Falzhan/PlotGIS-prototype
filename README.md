@@ -3,37 +3,41 @@
 ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=#D04A37)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Map](https://img.shields.io/badge/Map-Interactive-blue?style=for-the-badge)
+![Prototype](https://img.shields.io/badge/Prototype-Alpha-blue)
 
-A modern, interactive real estate application built with React Native and Expo that combines GIS mapping with property management. PlotGIS allows users to browse, list, and manage properties with precise geographic coordinates and custom polygon boundaries.
+A prototype real estate application built with React Native and Expo that combines GIS mapping with property management. PlotGIS is a proof-of-concept app that demonstrates how to display properties with precise geographic coordinates and custom polygon boundaries.
 
-## 🌟 Features
+**Note**: This is a prototype/demo application. It's designed to showcase functionality and UI concepts rather than serve as a production-ready system.
 
-### 🗺️ Interactive GIS Mapping
-- **Real-time Map Integration**: View properties on an interactive map with precise geographic coordinates
-- **Custom Polygon Boundaries**: Properties are displayed with accurate polygon shapes instead of simple markers
-- **Location-based Filtering**: Filter properties by barangay (district) with precise geographic targeting
-- **Map Navigation**: Smooth zoom and pan controls for exploring properties in General Santos City
+## Features
 
-### 📱 User Experience
-- **Modern UI/UX**: Clean, intuitive interface with glassmorphism effects and smooth animations
-- **Image Gallery**: Browse property photos with swipeable carousel functionality
-- **Search & Filter**: Powerful search by title, address, and barangay with real-time filtering
-- **Property Details**: Comprehensive property information with legal document previews
+### Interactive GIS Mapping
+- **Map Integration**: View properties on an interactive map with geographic coordinates
+- **Custom Polygon Boundaries**: Properties displayed with polygon shapes instead of simple markers
+- **Location-based Filtering**: Filter properties by barangay (district)
+- **Map Controls**: Basic zoom and pan functionality for exploring General Santos City
 
-### 🏗️ Property Management
-- **Smart Listing Creation**: Easy property listing with integrated map-based location and boundary setting
-- **Polygon Drawing Tool**: Draw custom property boundaries directly on the map
-- **Multiple Property Types**: Support for both Commercial and Private property categories
-- **Document Management**: Secure document storage with pay-to-view functionality
+### User Experience
+- **Clean Interface**: Simple, intuitive design with modern styling
+- **Image Gallery**: Browse property photos with carousel functionality
+- **Search & Filter**: Search by title, address, and barangay
+- **Property Details**: View property information and document previews
 
-### 🎨 Design Highlights
-- **Glassmorphism UI**: Modern translucent design elements with blur effects
-- **Color-coded Categories**: Visual distinction between Commercial (orange) and Private (teal) properties
-- **Responsive Layout**: Optimized for various screen sizes and orientations
-- **Smooth Animations**: Fluid transitions and micro-interactions throughout the app
+### Property Management
+- **Listing Creation**: Add new properties with map-based location setting
+- **Polygon Drawing**: Draw property boundaries directly on the map
+- **Property Types**: Support for Commercial and Private categories
+- **Document Preview**: View document placeholders with unlock simulation
 
-## 🚀 Getting Started
+### Design Features
+- **Modern UI**: Clean design with subtle visual effects
+- **Category Colors**: Color distinction between property types
+- **Responsive Layout**: Works on different screen sizes
+- **Smooth Interactions**: Basic animations and transitions
+
+## Getting Started
+
+This is a prototype, so setup is straightforward for demonstration purposes.
 
 ### Prerequisites
 - Node.js (version 18 or higher)
@@ -65,27 +69,28 @@ A modern, interactive real estate application built with React Native and Expo t
 ## 📖 Usage
 
 ### Browsing Properties
-1. **Explore the Map**: View all available properties on the interactive map
-2. **Search Properties**: Use the search bar to find properties by name or address
-3. **Filter by Location**: Select a barangay to filter properties in that area
-4. **View Details**: Tap on a property marker or polygon to see detailed information
+1. **Explore the Map**: View properties on the interactive map
+2. **Search Properties**: Use the search bar to find properties
+3. **Filter by Location**: Select a barangay to filter properties
+4. **View Details**: Tap on property markers to see information
 
 ### Adding a New Property
-1. **Navigate to Add Listing**: Tap the "+" button in the bottom navigation
-2. **Upload Images**: Add property photos using the image upload section
-3. **Fill Basic Info**: Enter property title, price, and select the property type
-4. **Set Location**: 
+1. **Navigate to Add Listing**: Tap the "+" button
+2. **Upload Images**: Add property photos
+3. **Fill Basic Info**: Enter title, price, and property type
+4. **Set Location**:
    - Open the map modal
    - Tap to place the property pin
-   - Tap additional points to draw the property boundary
-   - Use undo/reset controls as needed
-5. **Add Details**: Write property description and highlights
-6. **Publish**: Review and submit your listing
+   - Tap points to draw the boundary
+   - Use undo/reset as needed
+5. **Add Details**: Write property description
+6. **Publish**: Submit your listing (demo only)
 
 ### Property Management
-- **View History**: Access your listing history through the sidebar menu
-- **Manage Saved**: View and organize your saved favorite properties
-- **Document Access**: Unlock legal documents for properties (simulated payment system)
+This prototype includes basic property management features for demonstration:
+- View property listings
+- Browse property details
+- Simulated document access
 
 ## 🏗️ Architecture
 
@@ -99,11 +104,11 @@ A modern, interactive real estate application built with React Native and Expo t
 - **Gestures**: react-native-gesture-handler for touch interactions
 
 ### Key Components
-- **MapScreen**: Main interface with interactive map and property listings
-- **AddListingScreen**: Property creation with map-based location setting
-- **CustomDrawer**: Personalized sidebar navigation
+- **MapScreen**: Main interface with map and property listings
+- **AddListingScreen**: Property creation with map-based location
+- **CustomDrawer**: Sidebar navigation
 - **BottomSheet**: Expandable property listing panel
-- **Modal System**: Property details with image gallery and document preview
+- **Modal System**: Property details with gallery and documents
 
 ### Data Structure
 ```typescript
@@ -164,14 +169,16 @@ The app is configured for General Santos City, Philippines by default. To modify
    ```
 
 ### Customization Options
-- **Color Scheme**: Modify `constants/Colors.ts` for brand colors
+- **Color Scheme**: Modify `constants/Colors.ts` for different colors
 - **Map Styles**: Customize map appearance in MapView components
 - **Animation Speeds**: Adjust timing in animation functions
 - **UI Radius**: Modify border radius values for design consistency
 
-## 🤝 Contributing
+**Note**: This is a prototype, so extensive customization may require additional development.
 
-We welcome contributions! Please follow these steps:
+## Contributing
+
+This is a prototype project, but contributions are welcome if you want to extend or improve it:
 
 1. **Fork the repository**
 2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
@@ -186,18 +193,20 @@ We welcome contributions! Please follow these steps:
 - Test on both iOS and Android devices
 - Update documentation for new features
 
-## 📄 License
+**Note**: Since this is a prototype, major architectural changes should be discussed first.
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- **Expo Team**: For the excellent React Native development platform
-- **React Native Maps**: For powerful mapping capabilities
-- **React Native Paper**: For beautiful Material Design components
+- **Expo Team**: For the React Native development platform
+- **React Native Maps**: For mapping capabilities
+- **React Native Paper**: For Material Design components
 - **Unsplash**: For placeholder images in the demo
 
-## 📞 Contact
+## Contact
 
 For questions, suggestions, or collaboration opportunities:
 
@@ -207,4 +216,4 @@ For questions, suggestions, or collaboration opportunities:
 
 ---
 
-**PlotGIS** - Where properties meet precision. 🏠📍
+**PlotGIS** - A real estate mapping prototype
