@@ -15,13 +15,13 @@ function CustomDrawerContent(props: any) {
 
   return (
     <View style={{ flex: 1 }}>
-        <DrawerContentScrollView {...props} contentContainerStyle={{ paddingTop: 0 }}>
+        <DrawerContentScrollView {...props} contentContainerStyle={{ paddingTop: 5 }}>
             
             {/* 1. LOGO HEADER */}
             <View style={styles.drawerHeader}>
                 {/* Assuming the image exists, otherwise fallback to icon */}
                 <Image 
-                    source={require('../assets/images/splash-icon.png')} 
+                    source={require('../assets/images/icon.png')} 
                     style={styles.logo}
                     resizeMode="contain"
                 />
@@ -85,7 +85,7 @@ function CustomDrawerContent(props: any) {
             <View style={styles.accountRow}>
                 <Avatar.Image size={45} source={{ uri: 'https://i.pravatar.cc/150?img=12' }} />
                 <View style={styles.accountInfo}>
-                    <Text variant="bodyLarge" style={{fontWeight:'bold', color: PALETTE.support}}>Juan Dela Cruz</Text>
+                    <Text variant="bodyLarge" style={{fontWeight:'bold', color: PALETTE.support}}>Mark Jobit Palima</Text>
                     <View style={{flexDirection:'row', alignItems:'center'}}>
                         <MaterialCommunityIcons name="check-decagram" size={14} color={PALETTE.primary} />
                         <Text variant="labelSmall" style={{color: 'gray', marginLeft: 2}}>Verified Agent</Text>
@@ -126,15 +126,16 @@ export default function RootLayout() {
 
 const styles = StyleSheet.create({
     drawerHeader: {
-        height: 150,
+        height: 240,
         justifyContent: 'center',
         alignItems: 'center',
-        paddingTop: 40,
+        paddingTop: 50,
+        paddingBottom: 50,
         backgroundColor: '#fff'
     },
     logo: {
-        width: 120,
-        height: 120,
+        width: 160,
+        height: 160,
     },
     menuContainer: {
         flex: 1,
