@@ -7,7 +7,7 @@
 
 A prototype real estate application built with React Native and Expo that combines GIS mapping with property management. PlotGIS is a proof-of-concept app that demonstrates how to display properties with precise geographic coordinates and custom polygon boundaries.
 
-**Note**: This is a prototype/demo application. It's designed to showcase functionality and UI concepts rather than serve as a production-ready system.
+**Note**: This is a prototype/demo application. It's designed to showcase UI concepts rather than serve as a production-ready system.
 
 ## Features
 
@@ -54,19 +54,23 @@ This is a prototype, so setup is straightforward for demonstration purposes.
 
 2. **Install dependencies**
    ```bash
-   npm install
+   npm install 
    ```
-
-3. **Start the development server**
+3. **Install Expo CLI**
    ```bash
-   npm start
+   npm install -g @expo/cli 
+   ```
+   
+4. **Start the development server**
+   ```bash
+   npx expo start --clear
    ```
 
 4. **Open in Expo Go**
    - Scan the QR code with the Expo Go app on your mobile device
    - Or use the web preview in your browser
 
-## 📖 Usage
+## Usage
 
 ### Browsing Properties
 1. **Explore the Map**: View properties on the interactive map
@@ -92,7 +96,7 @@ This prototype includes basic property management features for demonstration:
 - Browse property details
 - Simulated document access
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Tech Stack
 - **Frontend**: React Native with Expo
@@ -127,24 +131,8 @@ interface Property {
 }
 ```
 
-## 📱 Screenshots
 
-### Main Interface
-- **Interactive Map**: Properties displayed with custom polygons
-- **Floating Search Bar**: Glassmorphism search and filter controls
-- **Bottom Sheet Listings**: Expandable property listing panel
-
-### Property Details
-- **Image Gallery**: Swipeable photo carousel
-- **Property Information**: Comprehensive details and pricing
-- **Document Preview**: Blurred legal documents with unlock option
-
-### Add Property Flow
-- **Map-based Location**: Pin and draw property boundaries
-- **Form Interface**: Clean, intuitive property creation
-- **Image Upload**: Easy photo addition and management
-
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Setup
 The app is configured for General Santos City, Philippines by default. To modify for other locations:
@@ -180,12 +168,6 @@ The app is configured for General Santos City, Philippines by default. To modify
 
 This is a prototype project, but contributions are welcome if you want to extend or improve it:
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **Push to the branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
-
 ### Development Guidelines
 - Use TypeScript for type safety
 - Follow the existing code style and naming conventions
@@ -193,8 +175,7 @@ This is a prototype project, but contributions are welcome if you want to extend
 - Test on both iOS and Android devices
 - Update documentation for new features
 
-**Note**: Since this is a prototype, major architectural changes should be discussed first.
-
+**Note**: Since this is a prototype, there are no backend databases. 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -210,9 +191,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration opportunities:
 
-- **Repository**: [GitHub Link](https://github.com/your-username/plotgis)
-- **Issues**: [Report Bugs](https://github.com/your-username/plotgis/issues)
-- **Email**: your.email@example.com
+- **Repository**: [GitHub Link](https://github.com/Falzhan/Plotgis-prototype)
+- **Email**: montefalconzhander@gmail.com
 
 ---
 
