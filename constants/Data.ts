@@ -100,3 +100,34 @@ export const BARANGAYS = [
   'Labangal', 'Lagao', 'Ligaya', 'Mabuhay', 'Mao-i', 'Olympog', 
   'San Isidro', 'San Jose', 'Siguel', 'Sinawal', 'Tambler', 'Tinagacan', 'Upper Labay'
 ];
+
+
+export const BARANGAY_COORDINATES: Record<string, { latitude: number; longitude: number }> = {
+  'Apopong': { latitude: 6.1360, longitude: 125.1350 },
+  'Baluan': { latitude: 6.1350, longitude: 125.1600 },
+  'Batomelong': { latitude: 6.2000, longitude: 125.1500 },
+  'Buayan': { latitude: 6.1000, longitude: 125.2300 },
+  'Bula': { latitude: 6.1050, longitude: 125.1850 },
+  'Calumpang': { latitude: 6.0900, longitude: 125.1500 },
+  'City Heights': { latitude: 6.1250, longitude: 125.1650 },
+  'Conel': { latitude: 6.1700, longitude: 125.1800 },
+  'Dadiangas East': { latitude: 6.1160, longitude: 125.1750 },
+  'Dadiangas North': { latitude: 6.1180, longitude: 125.1720 },
+  'Dadiangas South': { latitude: 6.1140, longitude: 125.1720 },
+  'Dadiangas West': { latitude: 6.1160, longitude: 125.1690 },
+  'Fatima': { latitude: 6.0800, longitude: 125.1300 },
+  'Katangawan': { latitude: 6.1500, longitude: 125.2100 },
+  'Labangal': { latitude: 6.1100, longitude: 125.1400 },
+  'Lagao': { latitude: 6.1300, longitude: 125.1900 },
+  'Ligaya': { latitude: 6.1600, longitude: 125.2300 },
+  'Mabuhay': { latitude: 6.1600, longitude: 125.1800 },
+  'Mao-i': { latitude: 6.1800, longitude: 125.1000 },
+  'Olympog': { latitude: 6.1800, longitude: 125.2000 },
+  'San Isidro': { latitude: 6.1350, longitude: 125.1950 },
+  'San Jose': { latitude: 6.1200, longitude: 125.1100 },
+  'Siguel': { latitude: 6.0600, longitude: 125.0900 },
+  'Sinawal': { latitude: 6.1300, longitude: 125.0800 },
+  'Tambler': { latitude: 6.0650, longitude: 125.1300 },
+  'Tinagacan': { latitude: 6.1900, longitude: 125.2200 },
+  'Upper Labay': { latitude: 6.2100, longitude: 125.0900 }
+};
